@@ -2,10 +2,10 @@ class Weather {
   constructor($) {
     this.temperature = $(".CurrentConditions--tempValue--3KcTQ").text();
     this.feelsLike = $(".TodayDetailsCard--feelsLikeTempValue--2aogo").text();
-    this.#_initialize($);
+    this._initialize($);
     this.AirQualityIndex = $(".DonutChart--innerValue--k2Z7I").text()
   }
-  #_initialize($) {
+  _initialize($) {
     const c = this;
     $(".SunriseSunset--dateValue--2nwgx").each(function (i, elem) {
       i === 0

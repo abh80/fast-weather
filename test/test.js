@@ -1,6 +1,6 @@
 const Weather = require("../index")
 //Weather.search("chicago").then(console.log)
-Weather.search("chicago",{language:"en-US"}).then(x=>x.results[0].weather().then(console.log(c)))
+Weather.search("chicago",{language:"en-US"}).then(x=>x.results[0].weather().then(c=>console.log(c)))
 /*
 Weather {
   temperature: '12°',
