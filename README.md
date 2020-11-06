@@ -5,7 +5,7 @@ Fast-Weather is an easy to use module with no api key!
 # Installation
 
 ```bash
-npm i fast-weather
+npm i @abh78989/fast-weather
 ```
 
 # Quick Intro
@@ -13,7 +13,7 @@ npm i fast-weather
 - searching
 
 ```js
-const weather = require("fast-weather");
+const weather = require("@abh78989/fast-weather");
 weather.search("chicago").then(console.log);
 /*
 Search {
@@ -37,6 +37,7 @@ Search {
 ```
 - Getting Weather
 ```js
+const weather = require("@abh78989/fast-weather");
 Weather.search("chicago").then(x=>x.results[0].weather().then(console.log))
 /*
 Weather {

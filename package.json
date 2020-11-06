@@ -1,5 +1,5 @@
 {
-  "name": "fast-weather",
+  "name": "@abh78989/fast-weather",
   "version": "1.0.0",
   "description": "A simple weather module ",
   "main": "index.js",
