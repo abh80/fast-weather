@@ -1,0 +1,27 @@
+{
+  "name": "fast-weather",
+  "version": "1.0.0",
+  "description": "A simple weather module ",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ah80/fast-weather.git"
+  },
+  "keywords": [
+    "weather",
+    "weather.com"
+  ],
+  "author": "Abh80",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ah80/fast-weather/issues"
+  },
+  "homepage": "https://github.com/ah80/fast-weather#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "cheerio": "^1.0.0-rc.3"
+  }
+}
